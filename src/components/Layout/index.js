@@ -1,15 +1,13 @@
 import React from 'react'
+import Header from '../Header';
+import Footer from '../Footer';
 
 const Layout = () => {
   return (
     <>
-      <header>
-        logo
-      </header>
-      <main></main>
-      <footer>
-        footer
-      </footer>
+      <Header />
+      <main>efra</main>
+      <Footer />
     </>
   )
 }
