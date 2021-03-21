@@ -1,12 +1,15 @@
 import React from 'react'
 import Header from '../Header';
 import Footer from '../Footer';
+import Hero from '../Hero';
 
 const Layout = () => {
   return (
     <>
       <Header />
-      <main>efra</main>
+      <main>
+        <Hero />
+      </main>
       <Footer />
     </>
   )
