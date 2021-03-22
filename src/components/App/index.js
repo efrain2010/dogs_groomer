@@ -1,11 +1,11 @@
 import Layout from '../Layout';
-import styles from './styles.module.css';
+import { StyledFrame } from './styles';
 
 function App() {
   return (
-    <div className={styles.frame}>
+    <StyledFrame>
       <Layout />
-    </div>
+    </StyledFrame>
   );
 }
 
