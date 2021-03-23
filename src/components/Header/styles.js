@@ -40,7 +40,6 @@ const StyledMenu = styled.div`
     a {
       color: #FFFFFF;
       font-weight: bold;
-      text-decoration: none;
     }
   }
 `;
