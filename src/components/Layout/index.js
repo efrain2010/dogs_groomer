@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Header';
 import Footer from '../Footer';
 import Hero from '../Hero';
+import Walking from '../Walking';
 
 const Layout = () => {
   return (
@@ -9,6 +10,7 @@ const Layout = () => {
       <Header />
       <main>
         <Hero />
+        <Walking />
       </main>
       <Footer />
     </>
