@@ -14,9 +14,14 @@ code {
 
 html {
   --primary-color: #152349;
+  --secondary-color: #3F7EB1;
 }
 
 @import url('./flex-grid.css');
+
+a {
+  text-decoration: none;
+}
 
 figure {
   margin: 0;
