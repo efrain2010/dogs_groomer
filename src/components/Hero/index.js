@@ -11,7 +11,7 @@ const Hero = () => {
         <img src={heroImg} alt="cachorro tomando una ducha" />
       </StyledFigure>
       <div>
-        <h2>Dándole a a tu mascota el mejor trato por que sabemos que es un miembro más de la familia</h2>
+        <h2>El mejor servicio para tu mascota y algo más</h2>
       </div>
     </StyledContainer>
   )

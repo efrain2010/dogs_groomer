@@ -1,20 +1,24 @@
 import styled from 'styled-components';
 
 const StyledFigure = styled.figure`
-  height: calc(100vh - 1rem);
+  height: 100vh;
   overflow: hidden;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
 `;
 
 const StyledContainer = styled.div`
-  border-bottom: 1rem solid var(--primary-color);
-
   > div {
     align-items: center;
-    height: calc(100vh - 1rem);
+    height: 100vh;
     display: flex;
     position: absolute;
     top: 0;
-    width: 40%;
+    width: 30%;
 
     h2 {
       color: #FFFFFF;
