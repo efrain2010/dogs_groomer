@@ -1,11 +1,10 @@
 import Layout from '../Layout';
-import { StyledFrame } from './styles';
 
 function App() {
   return (
-    <StyledFrame>
+    <div>
       <Layout />
-    </StyledFrame>
+    </div>
   );
 }
 
