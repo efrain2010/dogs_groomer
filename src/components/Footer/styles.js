@@ -7,6 +7,10 @@ const StyledFooter = styled.footer`
   flex-direction: column;
   justify-content: center;
   padding-top: 2rem;
+  
+  h2, h3 {
+    color: #FFFFFF;
+  }
 
   * {
     margin: 0;
@@ -41,7 +45,7 @@ const StyledInfoBox = styled.div`
 `;
 
 const DesignedBy = styled.div`
-  background-color: black;
+  background-color: #0c152b;
   margin-top: 2rem;
   padding: 0.6rem 0;
 

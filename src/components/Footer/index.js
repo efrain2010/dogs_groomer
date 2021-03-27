@@ -15,7 +15,7 @@ const Footer = () => {
         <StyledAddressText><a target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/B9rSx3Tw9496bbKr8">Javier Barros Sierra #444<br/> Chetumal, Q. Roo</a></StyledAddressText>
 
         <StyledInfoBox>
-          <a href="tel:9871375114">Teléfono<br/>987 137 5114</a>
+          <a href="tel:9871375114">Teléfono<br/>(987) 137 5114</a>
         </StyledInfoBox>
       </StyledFigure>
       <DesignedBy>
