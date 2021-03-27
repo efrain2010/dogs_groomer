@@ -10,7 +10,9 @@ const StyledContainer = styled.div`
 `;
 
 const ServiceContainer = styled.div`
-  padding: 0 2rem;
+  .col-sm-4 {
+    padding: 0 1rem;
+  }
 `;
 
 const StyledLogoService = styled.div`
