@@ -3,6 +3,7 @@ import Header from '../Header';
 import Footer from '../Footer';
 import Hero from '../Hero';
 import Walking from '../Walking';
+import Services from '../Services';
 
 const Layout = () => {
   return (
@@ -11,6 +12,7 @@ const Layout = () => {
       <main>
         <Hero />
         <Walking />
+        <Services />
       </main>
       <Footer />
     </>
