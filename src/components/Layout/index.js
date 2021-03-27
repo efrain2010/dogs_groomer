@@ -4,6 +4,7 @@ import Footer from '../Footer';
 import Hero from '../Hero';
 import Walking from '../Walking';
 import Services from '../Services';
+import Contact from '../Contact';
 
 const Layout = () => {
   return (
@@ -13,6 +14,7 @@ const Layout = () => {
         <Hero />
         <Walking />
         <Services />
+        <Contact />
       </main>
       <Footer />
     </>
